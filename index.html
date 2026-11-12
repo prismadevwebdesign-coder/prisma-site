@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prisma — Criação de sites</title>
+  <meta name="description" content="A Prisma é uma empresa brasileira de tecnologia que cria sites estratégicos, rápidos e pensados para o crescimento do seu negócio.">
+  <meta name="theme-color" content="#10152F">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Prisma — Criação de sites">
+  <meta property="og:description" content="Sites estratégicos, rápidos e pensados para o crescimento do seu negócio.">
+  <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <linearGradient id="lg-main" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#1E3FC4"/><stop offset="1" stop-color="#3B7BF0"/>
+      </linearGradient>
+      <linearGradient id="lg-stem" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#3D74EA"/><stop offset="1" stop-color="#8CC0F7"/>
+      </linearGradient>
+    </defs>
+    <symbol id="prisma-logo" viewBox="0 0 360 428">
+      <path d="M2 0H260L360 88H92Z" fill="url(#lg-main)"/>
+      <path d="M260 88H360V173Z" fill="url(#lg-main)"/>
+      <path d="M260 88V173H360Z" fill="#7DB6F5"/>
+      <path d="M207 173H360L260 257H117Z" fill="url(#lg-main)"/>
+      <path d="M0 235 102 153V352L0 428Z" fill="url(#lg-stem)"/>
+    </symbol>
+  </svg>
+
+  <div class="progress" aria-hidden="true"></div>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="header" id="topo">
+    <a href="#inicio" class="logo" aria-label="Prisma, voltar ao início">
+      <svg width="24" height="28" aria-hidden="true"><use href="#prisma-logo"/></svg>
+      <span>Prisma</span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+      <span></span><span></span>
+    </button>
+
+    <nav id="menu" class="nav" aria-label="Principal">
+      <a href="#inicio" class="logo nav__logo" aria-label="Prisma, voltar ao início">
+        <svg width="24" height="28" aria-hidden="true"><use href="#prisma-logo"/></svg>
+        <span>Prisma</span>
+      </a>
+
+      <ul class="nav__main">
+        <li><a href="#o-que-fazemos">O que fazemos</a></li>
+        <li><a href="#servicos">Na prática</a></li>
+        <li><a href="#como-pensamos">Como pensamos</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <div class="nav__demos">
+        <p class="nav__label">Projetos demonstrativos</p>
+        <ul>
+          <li><a href="https://site-demonstrativo-vertice-advocaci.vercel.app/" target="_blank" rel="noopener">Vértice <small>Advocacia</small></a></li>
+          <li><a href="https://royal-barber-ochre.vercel.app/" target="_blank" rel="noopener">Royal Barber <small>Barbearia</small></a></li>
+          <li><a href="https://iron-peak-sage.vercel.app/" target="_blank" rel="noopener">Iron Peak <small>Academia</small></a></li>
+          <li><a href="https://urban-vibe-wine.vercel.app/" target="_blank" rel="noopener">Urban Vibe <small>Moda urbana</small></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+
+    <section id="inicio" class="hero" aria-labelledby="hero-title">
+      <div class="hero__art" aria-hidden="true">
+        <span class="plane p1"></span>
+        <span class="plane p2"></span>
+        <span class="plane p3"></span>
+        <span class="beam"></span>
+      </div>
+
+      <div class="hero__content">
+        <p class="eyebrow hero-in">Prisma · Tecnologia</p>
+        <h1 id="hero-title" class="hero-in">
+          Clareza em <em>perspectiva</em> para a sua presença digital.
+        </h1>
+        <p class="hero__lead hero-in">Criamos sites estratégicos para empresas que querem ser levadas a sério no digital. Cada projeto começa pelo objetivo do seu negócio e termina em um site claro, rápido e preparado para transformar visitas em contatos.</p>
+        <a href="#o-que-fazemos" class="btn btn--light hero-in">Conheça o que fazemos</a>
+      </div>
+      <span class="scroll-hint" aria-hidden="true">Role</span>
+    </section>
+
+    <section id="o-que-fazemos" class="scrolly" aria-labelledby="oqf-title">
+      <div class="scrolly__sticky" aria-hidden="true">
+        <div class="device">
+          <div class="device__lid">
+            <div class="device__screen">
+              <div class="screen s1 is-active"><i></i><i></i><i></i></div>
+              <div class="screen s2"><i></i><i></i><i></i></div>
+              <div class="screen s3"><i></i><i></i><i></i></div>
+            </div>
+          </div>
+          <div class="device__base"></div>
+        </div>
+      </div>
+
+      <div class="scrolly__content">
+        <header class="section-head">
+          <p class="eyebrow">01 — O que fazemos</p>
+          <h2 id="oqf-title" class="reveal">Criação de <em>sites</em></h2>
+        </header>
+        <ol class="steps">
+          <li class="step" data-step="0">
+            <span class="step-num" aria-hidden="true"></span>
+            <h3>Presença com propósito</h3>
+            <p>Seu site costuma ser o primeiro contato de um cliente com a sua empresa. Por isso, ele precisa mostrar em poucos segundos quem vocês são, o que oferecem e por que vale a pena escolher vocês.</p>
+            <p>Organizamos cada informação para que o visitante entenda rápido e saiba exatamente qual é o próximo passo.</p>
+          </li>
+          <li class="step" data-step="1">
+            <span class="step-num" aria-hidden="true"></span>
+            <h3>Feitos para qualquer tela</h3>
+            <p>Grande parte das pessoas vai conhecer sua empresa pelo celular. Por isso, desenhamos cada página primeiro para a tela pequena e depois adaptamos para tablet e computador.</p>
+            <p>São textos legíveis, botões fáceis de tocar e carregamento rápido, mesmo em conexões mais lentas.</p>
+          </li>
+          <li class="step" data-step="2">
+            <span class="step-num" aria-hidden="true"></span>
+            <h3>Pensados para crescer</h3>
+            <p>Um site não deve ficar parado depois da publicação. Construímos com código organizado, boas práticas de acessibilidade e uma estrutura que facilita incluir novas páginas e serviços.</p>
+            <p>Quando a sua empresa evoluir, o site acompanha, sem precisar começar do zero.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="servicos" class="section section--services" aria-labelledby="sv-title">
+      <div class="container">
+        <header class="section-head section-head--wide">
+          <p class="eyebrow">Na prática</p>
+          <h2 id="sv-title" class="reveal">Sites que fazem sua empresa ser <em>encontrada</em> e <em>escolhida</em>.</h2>
+          <p class="section-note reveal">Cuidamos do projeto de ponta a ponta: entendemos o seu negócio, organizamos o conteúdo, escrevemos os textos, criamos o design, programamos e publicamos. Você não precisa entender de tecnologia nem coordenar vários fornecedores.</p>
+          <p class="section-note reveal">Você acompanha cada etapa, aprova as decisões importantes e recebe um site pronto para trabalhar a favor da sua empresa.</p>
+        </header>
+
+        <ul class="services">
+          <li class="service reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 8h18M8 21h8"/></svg>
+            <h3>Sites institucionais</h3>
+            <p>A presença oficial da sua empresa na internet. Apresentamos a história, os serviços, os diferenciais e as formas de contato em uma estrutura clara, que transmite profissionalismo e confiança.</p>
+          </li>
+          <li class="service reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10l8-6 8 6v10z"/><path d="M9 20v-6h6v6"/></svg>
+            <h3>Landing pages</h3>
+            <p>Páginas com um único objetivo: divulgar um serviço, lançar uma oferta ou captar contatos. O texto e o layout guiam o visitante até a ação, sem distrações.</p>
+          </li>
+          <li class="service reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
+            <h3>Pensado para celular</h3>
+            <p>Projetamos primeiro para a tela onde seus clientes mais navegam. Imagens otimizadas, código leve e navegação simples deixam a experiência rápida e agradável.</p>
+          </li>
+          <li class="service reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+            <h3>Pronto para o Google</h3>
+            <p>Entregamos a base técnica que os buscadores valorizam: estrutura correta, títulos e descrições bem escritos e boa velocidade. Isso ajuda sua empresa a ser encontrada por quem já procura o que você oferece.</p>
+          </li>
+        </ul>
+
+        <h3 class="process-title reveal">Como funciona</h3>
+        <ol class="process">
+          <li class="reveal"><strong>Conversa</strong><span>Entendemos seu negócio, seu público e o que o site precisa alcançar. Também identificamos o que já existe: logo, fotos, textos e referências.</span></li>
+          <li class="reveal"><strong>Proposta</strong><span>Você recebe por escrito o escopo, as páginas, o prazo e o investimento. Tudo combinado antes de começar, sem surpresas no caminho.</span></li>
+          <li class="reveal"><strong>Criação</strong><span>Desenvolvemos o conteúdo, o design e a programação, apresentando cada etapa. Nada vai ao ar sem a sua aprovação.</span></li>
+          <li class="reveal"><strong>Publicação</strong><span>Testamos o site no celular, no tablet e no computador, publicamos e mostramos como tudo funciona. Seu site está no ar, pronto para receber visitantes.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="como-pensamos" class="section" aria-labelledby="cp-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">02 — Como pensamos</p>
+          <h2 id="cp-title" class="reveal">Estratégia antes da <em>estética</em>.</h2>
+        </header>
+        <div class="principles">
+          <article class="principle reveal">
+            <h3>Objetivo primeiro</h3>
+            <p>Antes de escolher cores ou fontes, perguntamos o que o site precisa fazer pela sua empresa: gerar contatos, transmitir credibilidade ou apresentar um serviço novo. Cada decisão de design parte dessa resposta.</p>
+          </article>
+          <article class="principle reveal">
+            <h3>Clareza</h3>
+            <p>Quem visita seu site não deveria ter que pensar muito. Usamos mensagens diretas, uma hierarquia visual bem definida e navegação simples para que qualquer pessoa encontre o que procura.</p>
+          </article>
+          <article class="principle reveal">
+            <h3>Eficiência</h3>
+            <p>Tecnologia boa é a que funciona sem chamar atenção para si. Escolhemos soluções leves e bem construídas, que carregam rápido e são fáceis de manter, sem complexidade que não traga resultado.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Clareza · Estratégia · Precisão · Inovação · Eficiência · </span>
+        <span>Clareza · Estratégia · Precisão · Inovação · Eficiência · </span>
+      </div>
+    </div>
+
+    <!-- 03 · PROJETOS DEMONSTRATIVOS — capas ilustrativas (Unsplash) -->
+    <section id="projetos" class="section" aria-labelledby="pj-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">03 — Projetos demonstrativos</p>
+          <h2 id="pj-title" class="reveal">Explorações de <em>linguagem visual</em>.</h2>
+          <p class="section-note reveal">Criamos projetos fictícios para explorar linguagens visuais diferentes. Cada um simula um segmento, com tom de voz, cores e estrutura próprios. São uma forma transparente de mostrar como pensamos e o nível de acabamento que buscamos em cada entrega.</p>
+        </header>
+
+        <ul class="cards">
+          <li class="card reveal">
+            <a class="card__media" href="https://site-demonstrativo-vertice-advocaci.vercel.app/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=75&w=800&h=1000&fit=crop&fm=webp"
+                   alt="" loading="lazy" decoding="async" width="800" height="1000">
+              <span class="badge">Demonstrativo</span>
+            </a>
+            <div class="card__body">
+              <h3>Vértice</h3>
+              <p class="card__seg">Advocacia</p>
+              <p class="card__desc">Sóbrio e elegante, para transmitir autoridade e confiança.</p>
+              <a class="btn btn--demo" href="https://site-demonstrativo-vertice-advocaci.vercel.app/" target="_blank" rel="noopener">Abrir demonstração <span class="sr">Vértice (abre em nova aba)</span></a>
+            </div>
+          </li>
+
+          <li class="card reveal">
+            <a class="card__media" href="https://royal-barber-ochre.vercel.app/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=75&w=800&h=1000&fit=crop&fm=webp"
+                   alt="" loading="lazy" decoding="async" width="800" height="1000">
+              <span class="badge">Demonstrativo</span>
+            </a>
+            <div class="card__body">
+              <h3>Royal Barber</h3>
+              <p class="card__seg">Barbearia</p>
+              <p class="card__desc">Clássico e marcante, com serviços e profissionais em destaque.</p>
+              <a class="btn btn--demo" href="https://royal-barber-ochre.vercel.app/" target="_blank" rel="noopener">Abrir demonstração <span class="sr">Royal Barber (abre em nova aba)</span></a>
+            </div>
+          </li>
+
+          <li class="card reveal">
+            <a class="card__media" href="https://iron-peak-sage.vercel.app/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=75&w=800&h=1000&fit=crop&fm=webp"
+                   alt="" loading="lazy" decoding="async" width="800" height="1000">
+              <span class="badge">Demonstrativo</span>
+            </a>
+            <div class="card__body">
+              <h3>Iron Peak</h3>
+              <p class="card__seg">Academia</p>
+              <p class="card__desc">Energia e contraste para planos e modalidades.</p>
+              <a class="btn btn--demo" href="https://iron-peak-sage.vercel.app/" target="_blank" rel="noopener">Abrir demonstração <span class="sr">Iron Peak (abre em nova aba)</span></a>
+            </div>
+          </li>
+
+          <li class="card reveal">
+            <a class="card__media" href="https://urban-vibe-wine.vercel.app/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=75&w=800&h=1000&fit=crop&fm=webp"
+                   alt="" loading="lazy" decoding="async" width="800" height="1000">
+              <span class="badge">Demonstrativo</span>
+            </a>
+            <div class="card__body">
+              <h3>Urban Vibe</h3>
+              <p class="card__seg">Moda urbana</p>
+              <p class="card__desc">Visual ousado, pensado para coleções e vitrine.</p>
+              <a class="btn btn--demo" href="https://urban-vibe-wine.vercel.app/" target="_blank" rel="noopener">Abrir demonstração <span class="sr">Urban Vibe (abre em nova aba)</span></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="sobre" class="section section--about" aria-labelledby="sb-title">
+      <div class="about__glow" aria-hidden="true"></div>
+      <div class="container">
+
+        <div class="about__intro">
+          <header class="section-head">
+            <p class="eyebrow">04 — Sobre a Prisma</p>
+            <h2 id="sb-title" class="reveal">Transformar desafios em <em>soluções digitais</em>.</h2>
+          </header>
+          <div class="about__text">
+            <p class="reveal">A Prisma é uma empresa brasileira de tecnologia. O nome vem de uma imagem simples: um prisma recebe a luz e a revela em todas as suas cores. Fazemos o mesmo com cada negócio, pegando o que ele tem de melhor e tornando isso visível, claro e fácil de entender no digital.</p>
+            <p class="reveal">Somos uma empresa nova e escolhemos dizer isso abertamente. Começamos pela criação de sites porque ela é a base da presença de qualquer empresa na internet. Tratamos cada projeto como se fosse o único, com atenção aos detalhes, comunicação direta e compromisso com o resultado.</p>
+          </div>
+        </div>
+
+        <blockquote class="about__quote reveal">
+          “Tecnologia só faz sentido quando resolve um problema real do negócio.”
+        </blockquote>
+
+        <h3 class="about__subtitle reveal">O que você pode esperar de nós</h3>
+        <ul class="commitments">
+          <li class="reveal"><strong>Combinado por escrito</strong><span>Escopo, prazo e investimento ficam definidos antes de começar. Você sabe exatamente o que vai receber.</span></li>
+          <li class="reveal"><strong>Comunicação direta</strong><span>Sem termos técnicos desnecessários. Explicamos cada decisão de forma simples e mantemos você informado durante todo o projeto.</span></li>
+          <li class="reveal"><strong>Aprovação em cada etapa</strong><span>Nada é publicado sem o seu aval. Você participa das decisões que importam para o seu negócio.</span></li>
+          <li class="reveal"><strong>Entrega testada</strong><span>Antes de publicar, verificamos o site em diferentes telas e navegadores para garantir que tudo funcione como deve.</span></li>
+        </ul>
+
+        <h3 class="about__subtitle reveal">Nossos valores</h3>
+        <ol class="values">
+          <li class="reveal"><strong>Excelência</strong><span>Acabamento cuidadoso em cada detalhe.</span></li>
+          <li class="reveal"><strong>Estratégia</strong><span>Decisões guiadas por objetivos, não por modismos.</span></li>
+          <li class="reveal"><strong>Inovação</strong><span>Soluções atuais, escolhidas com critério.</span></li>
+          <li class="reveal"><strong>Eficiência</strong><span>O máximo de resultado com o mínimo de complexidade.</span></li>
+          <li class="reveal"><strong>Responsabilidade</strong><span>Compromisso com o que prometemos.</span></li>
+          <li class="reveal"><strong>Transparência</strong><span>Clareza sobre o processo, os prazos e os custos.</span></li>
+          <li class="reveal"><strong>Evolução contínua</strong><span>Aprender e melhorar a cada projeto.</span></li>
+        </ol>
+
+        <h3 class="about__subtitle reveal">Para onde estamos indo</h3>
+        <ol class="roadmap">
+          <li class="reveal is-now">
+            <span class="roadmap__tag">Hoje</span>
+            <strong>Criação de sites</strong>
+            <span>Sites institucionais e landing pages, a base da presença digital.</span>
+          </li>
+          <li class="reveal">
+            <span class="roadmap__tag">Próximo passo</span>
+            <strong>Sistemas e integrações</strong>
+            <span>Ferramentas sob medida, conectadas às rotinas da sua empresa.</span>
+          </li>
+          <li class="reveal">
+            <span class="roadmap__tag">Visão</span>
+            <strong>Automações e produtos digitais</strong>
+            <span>Soluções completas que unem crescimento comercial e eficiência operacional.</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contato" class="section" aria-labelledby="ct-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">05 — Contato</p>
+          <h2 id="ct-title" class="reveal">Vamos tirar o seu site do <em>papel</em>?</h2>
+          <p class="section-note reveal">Conte o que a sua empresa precisa. Respondemos com perguntas para entender o seu negócio e, depois, com uma proposta clara de escopo, prazo e investimento.</p>
+        </header>
+        <ul class="contact__list">
+          <li class="reveal">
+            <a href="mailto:prismadev.webdesign@gmail.com" class="contact__item">
+              <span>E-mail</span><strong>prismadev.webdesign@gmail.com</strong>
+            </a>
+          </li>
+          <li class="reveal">
+            <a href="https://www.instagram.com/prisma._sites/" target="_blank" rel="noopener" class="contact__item">
+              <span>Instagram</span><strong>@prisma._sites</strong>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#inicio" class="logo" aria-label="Prisma, voltar ao início">
+        <svg width="24" height="28" aria-hidden="true"><use href="#prisma-logo"/></svg>
+        <span>Prisma</span>
+      </a>
+      <nav aria-label="Rodapé">
+        <ul>
+          <li><a href="#o-que-fazemos">O que fazemos</a></li>
+          <li><a href="#servicos">Na prática</a></li>
+          <li><a href="#como-pensamos">Como pensamos</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <p class="footer__note">
+        <a href="mailto:prismadev.webdesign@gmail.com">prismadev.webdesign@gmail.com</a> ·
+        <a href="https://www.instagram.com/prisma._sites/" target="_blank" rel="noopener">@prisma._sites</a><br>
+        © 2026 Prisma. Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
