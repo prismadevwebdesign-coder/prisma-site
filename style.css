@@ -381,6 +381,9 @@ h1 em, h2 em { font-style: italic; color: var(--action); }
 .is-now .roadmap__tag { background: var(--sky); color: var(--night); }
 .roadmap strong { font: 400 1.4rem/1.2 var(--font-display); margin-top: .4rem; }
 .roadmap li > span:last-child { font-size: .93rem; color: rgba(255, 255, 255, .7); }
+.section--testimonials .section-head { max-width: none; }
+.section--testimonials h2 { max-width: 16ch; }
+
 
 /* ===== 05 · CONTATO ===== */
 .contact__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
